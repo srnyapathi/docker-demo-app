@@ -1,5 +1,5 @@
 FROM openjdk:11
 WORKDIR /app
-COPY build/libs/dockerbasics-0.0.1-SNAPSHOT.jar app.jar
+COPY build/libs/docker-basics-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","app.jar"]
